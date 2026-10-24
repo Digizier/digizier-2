@@ -5,8 +5,11 @@ import { ShieldCheck, ArrowLeft } from "lucide-react";
 import { BRAND_NAME, FOUNDER_NAME, EMAIL_CONTACT } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: `Privacy Policy | ${BRAND_NAME}`,
+  title: "Privacy Policy",
   description: `Privacy policy and data protection practices for ${BRAND_NAME} and founder ${FOUNDER_NAME}.`,
+  alternates: {
+    canonical: "https://www.digizier.com/privacy-policy/",
+  },
 };
 
 export default function PrivacyPolicyPage() {

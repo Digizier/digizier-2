@@ -25,8 +25,12 @@ import {
 } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: `About ${FOUNDER_NAME} — CEO & Founder of ${BRAND_NAME}`,
-  description: `Learn more about Nadir Habib, CEO & Founder of Digizier in Karachi, Pakistan, specializing in performance digital marketing, autonomous AI agents, and n8n automation.`,
+  title: `About ${FOUNDER_NAME} — Founder & CEO`,
+  description:
+    "Meet Nadir Habib, CEO of Digizier in Karachi. Expert in high-ROAS Meta & Google ad funnels, WhatsApp AI chatbots, and automated n8n workflow systems.",
+  alternates: {
+    canonical: "https://www.digizier.com/about/",
+  },
 };
 
 export default function AboutPage() {

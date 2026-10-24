@@ -1,1 +1,7 @@
-/*    /index.html   200
+# Canonical Domain 301 Redirects (Cloudflare Pages edge routing)
+https://digizier.com/* https://www.digizier.com/:splat 301!
+http://digizier.com/* https://www.digizier.com/:splat 301!
+http://www.digizier.com/* https://www.digizier.com/:splat 301!
+
+# SPA Fallback
+/* /index.html 200

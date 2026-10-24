@@ -5,8 +5,11 @@ import { ArrowLeft } from "lucide-react";
 import { BRAND_NAME, FOUNDER_NAME, EMAIL_CONTACT } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: `Terms & Conditions | ${BRAND_NAME}`,
+  title: "Terms & Conditions",
   description: `Terms of service and engagement terms for ${BRAND_NAME} and founder ${FOUNDER_NAME}.`,
+  alternates: {
+    canonical: "https://www.digizier.com/terms/",
+  },
 };
 
 export default function TermsPage() {

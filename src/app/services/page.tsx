@@ -18,9 +18,12 @@ import { SERVICES } from "@/data/siteData";
 import { BRAND_NAME, getWhatsAppUrl } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: `Digital Marketing & AI Automation Services | ${BRAND_NAME}`,
+  title: "Digital Marketing & AI Automation Services",
   description:
-    "Explore Digizier's core services: performance Meta and Google ad campaigns, autonomous AI customer agents, n8n workflow automation, and zero-load web development.",
+    "Explore high-ROAS Meta and Google ads, 24/7 WhatsApp AI customer bots, n8n workflow automation, and zero-load web development engineered for business ROI.",
+  alternates: {
+    canonical: "https://www.digizier.com/services/",
+  },
 };
 
 export default function ServicesPage() {
