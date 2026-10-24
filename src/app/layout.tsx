@@ -160,6 +160,55 @@ export default function RootLayout({
         url: "https://www.digizier.com",
         sameAs: ["https://www.digizier.com"],
       },
+      {
+        "@type": "ItemList",
+        "@id": "https://www.digizier.com/#sitelinks",
+        name: "Digizier Navigation Links",
+        itemListElement: [
+          {
+            "@type": "SiteNavigationElement",
+            position: 1,
+            name: "Services",
+            description: "Performance Meta/Google ads, AI WhatsApp bots, and n8n workflows",
+            url: "https://www.digizier.com/services/",
+          },
+          {
+            "@type": "SiteNavigationElement",
+            position: 2,
+            name: "About Us",
+            description: "About Nadir Habib, CEO & Founder of Digizier in Karachi",
+            url: "https://www.digizier.com/about/",
+          },
+          {
+            "@type": "SiteNavigationElement",
+            position: 3,
+            name: "Contact Us",
+            description: "Direct WhatsApp consultation and project inquiry form",
+            url: "https://www.digizier.com/contact/",
+          },
+          {
+            "@type": "SiteNavigationElement",
+            position: 4,
+            name: "Selected Work",
+            description: "Client case studies, ad results, and automation pipelines",
+            url: "https://www.digizier.com/portfolio/",
+          },
+          {
+            "@type": "SiteNavigationElement",
+            position: 5,
+            name: "Book Strategy Call",
+            description: "Book a 30-minute discovery call with Nadir Habib",
+            url: "https://www.digizier.com/appointment-booking/",
+          },
+          {
+            "@type": "SiteNavigationElement",
+            position: 6,
+            name: "Articles & Insights",
+            description: "Practical guides on marketing funnels and autonomous AI agents",
+            url: "https://www.digizier.com/blog/",
+          },
+        ],
+      },
     ],
   };
 
