@@ -134,9 +134,9 @@ export default function BlogPage() {
 
       {/* Consultation Banner */}
       <div className="rounded-3xl bg-neutral-900 text-white p-8 sm:p-12 text-center space-y-4">
-        <h3 className="text-xl sm:text-3xl font-extrabold text-white">
+        <h2 className="text-xl sm:text-3xl font-extrabold text-white">
           Want a Custom Audit for Your Business?
-        </h3>
+        </h2>
         <p className="text-sm text-neutral-300 max-w-lg mx-auto">
           We review your existing ad accounts, conversion rates, and operational spreadsheets to show you where revenue is being left on the table.
         </p>

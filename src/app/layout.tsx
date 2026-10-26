@@ -111,9 +111,19 @@ export default function RootLayout({
         telephone: WHATSAPP_DISPLAY,
         address: {
           "@type": "PostalAddress",
+          streetAddress: "Karachi, Pakistan",
           addressLocality: "Karachi",
+          addressRegion: "Sindh",
+          postalCode: "75500",
           addressCountry: "PK",
         },
+        sameAs: [
+          "https://www.linkedin.com/in/nadir-habib",
+          "https://www.facebook.com/digizier",
+          "https://www.instagram.com/digizier",
+          "https://x.com/digizier",
+          "https://www.youtube.com/@digizier",
+        ],
         areaServed: [
           "Pakistan",
           "United States",
@@ -155,11 +165,19 @@ export default function RootLayout({
         },
         address: {
           "@type": "PostalAddress",
+          streetAddress: "Karachi, Pakistan",
           addressLocality: "Karachi",
+          addressRegion: "Sindh",
+          postalCode: "75500",
           addressCountry: "PK",
         },
         url: "https://www.digizier.com",
-        sameAs: ["https://www.digizier.com"],
+        sameAs: [
+          "https://www.linkedin.com/in/nadir-habib",
+          "https://www.facebook.com/digizier",
+          "https://www.instagram.com/digizier",
+          "https://x.com/digizier",
+        ],
       },
       {
         "@type": "ItemList",

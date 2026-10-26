@@ -72,8 +72,17 @@ export default function PrivacyPolicyPage() {
           <p>
             If you have questions regarding this policy or wish to request the deletion of any inquiry data, please contact {FOUNDER_NAME} directly at:
           </p>
-          <p className="font-semibold text-neutral-900">
-            Email: <a href={`mailto:${EMAIL_CONTACT}`} className="text-orange-600 hover:underline">{EMAIL_CONTACT}</a>
+          <p className="font-semibold text-neutral-900 inline-flex items-center gap-1">
+            <span>Email:</span>
+            <a
+              href="mailto:info%40digizier.com"
+              className="text-orange-600 hover:underline inline-flex items-center"
+              aria-label="Contact Email"
+            >
+              <span>info</span>
+              <span className="text-orange-500 font-semibold">&#64;</span>
+              <span>digizier.com</span>
+            </a>
           </p>
         </section>
       </div>

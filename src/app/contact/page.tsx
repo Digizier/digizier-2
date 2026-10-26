@@ -131,10 +131,13 @@ export default function ContactPage() {
                     Official Email
                   </span>
                   <a
-                    href={`mailto:${EMAIL_CONTACT}`}
-                    className="text-neutral-900 font-bold hover:text-orange-600 transition-colors"
+                    href="mailto:info%40digizier.com"
+                    className="text-neutral-900 font-bold hover:text-orange-600 transition-colors inline-flex items-center"
+                    aria-label="Direct Email Nadir Habib"
                   >
-                    {EMAIL_CONTACT}
+                    <span>info</span>
+                    <span className="text-orange-500 font-semibold">&#64;</span>
+                    <span>digizier.com</span>
                   </a>
                 </div>
               </div>

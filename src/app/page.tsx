@@ -157,10 +157,10 @@ export default function HomePage() {
                     <Image
                       src="/images/nadir-habib.jpg"
                       alt="Nadir Habib — CEO & Founder of Digizier"
-                      fill
+                      width={800}
+                      height={1000}
                       priority
-                      className="object-cover object-top hover:scale-[1.02] transition-transform duration-500"
-                      sizes="(max-width: 768px) 90vw, 400px"
+                      className="w-full h-full object-cover object-top hover:scale-[1.02] transition-transform duration-500"
                       unoptimized
                     />
 
@@ -233,7 +233,7 @@ export default function HomePage() {
                 <span>Core Capabilities</span>
               </div>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-neutral-900 tracking-tight leading-tight">
-                What We Build & Scale
+                Digital Marketing & AI Automation Systems We Build & Scale
               </h2>
               <p className="text-sm sm:text-base text-neutral-600 leading-relaxed">
                 Combining high-converting advertising channels with intelligent automation pipelines to solve real operational bottlenecks.
@@ -475,9 +475,10 @@ export default function HomePage() {
                 <Image
                   src="/images/digizier-team.jpg"
                   alt="Nadir Habib and the Digizier Digital Marketing & AI Automation Team"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 550px"
+                  width={1200}
+                  height={900}
+                  loading="lazy"
+                  className="w-full h-full object-cover"
                   unoptimized
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
@@ -655,7 +656,7 @@ export default function HomePage() {
           </div>
 
           <h2 className="text-3xl sm:text-5xl font-black text-neutral-900 tracking-tight max-w-2xl mx-auto leading-tight">
-            Have an Ad Funnel to Scale or a Process to Automate?
+            Ready to Scale Digital Marketing or Deploy AI Agents?
           </h2>
 
           <p className="text-base sm:text-lg text-neutral-700 max-w-xl mx-auto leading-relaxed">

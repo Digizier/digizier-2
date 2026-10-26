@@ -79,9 +79,9 @@ export default function PortfolioPage() {
 
               {/* Title & Client */}
               <div>
-                <h3 className="text-xl font-bold text-neutral-900">
+                <h2 className="text-xl font-bold text-neutral-900">
                   {project.title}
-                </h3>
+                </h2>
                 <span className="text-xs text-neutral-500 font-medium">
                   Client: {project.client}
                 </span>

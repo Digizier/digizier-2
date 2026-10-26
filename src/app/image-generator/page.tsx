@@ -70,6 +70,10 @@ export default function ImageGeneratorPage() {
         {/* Left Column: Controls */}
         <div className="lg:col-span-6 space-y-6">
           <div className="rounded-3xl bg-white border border-gray-200/80 shadow-soft p-6 sm:p-8 space-y-6">
+            <h2 className="text-xl font-bold text-neutral-900 border-b border-gray-100 pb-3">
+              Prompt Generation Parameters
+            </h2>
+
             {/* Subject Input */}
             <div>
               <label className="text-xs font-bold text-neutral-900 uppercase tracking-wider block mb-2">

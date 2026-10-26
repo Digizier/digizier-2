@@ -1,0 +1,33 @@
+# Digizier
+
+> Digital marketing and AI automation agency based in Karachi, Pakistan. Founded and led by Nadir Habib. Specializing in high-ROAS Meta and Google advertising funnels, 24/7 autonomous WhatsApp AI customer and sales bots, and n8n workflow integration pipelines.
+
+## About Digizier
+- **Founder & CEO:** Nadir Habib
+- **Headquarters:** Karachi, Sindh, Pakistan (Serving clients across Pakistan, USA, UK, UAE, and globally)
+- **Official Website:** https://www.digizier.com
+- **Direct WhatsApp:** +92 322 2685688
+- **Primary Contact Email:** info@digizier.com
+
+## Core Agency Services
+1. **Performance Digital Marketing:** Data-driven Meta (Facebook & Instagram) and Google ad campaigns with server-side Meta Conversions API (CAPI) tracking for e-commerce and lead generation.
+2. **AI Agents & WhatsApp Bots:** Bilingual (English & Urdu) autonomous AI sales assistants and customer support bots that qualify leads, handle inquiries, and confirm orders 24/7.
+3. **n8n Workflow Automation:** Automated webhook pipelines integrating CRMs, payment gateways, Google Sheets, email alerts, and couriers without recurring third-party platform costs.
+4. **High-Speed Web & E-Commerce Systems:** Next.js static web architectures delivering sub-second page loads with zero serverless hosting expense.
+5. **Business Process Automation:** Structured operational audits and workflow engineering to eliminate repetitive manual bottlenecks.
+
+## Key Links & Resources
+- **Homepage:** https://www.digizier.com/
+- **Services:** https://www.digizier.com/services/
+- **About Founder:** https://www.digizier.com/about/
+- **Selected Work & Portfolio:** https://www.digizier.com/portfolio/
+- **Book a Strategy Call:** https://www.digizier.com/appointment-booking/
+- **Contact & Inquiries:** https://www.digizier.com/contact/
+- **Articles & Insights:** https://www.digizier.com/blog/
+- **AI Studio:** https://www.digizier.com/image-generator/
+
+## Optional / Technical Notes
+- Architecture: Next.js Static Export (zero serverless runtime, pure CDN edge delivery).
+- Canonical URL: https://www.digizier.com/
+- Robots File: https://www.digizier.com/robots.txt
+- Sitemap: https://www.digizier.com/sitemap.xml

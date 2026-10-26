@@ -88,9 +88,9 @@ export default function AboutPage() {
                 <Image
                   src="/images/nadir-habib.jpg"
                   alt={`${FOUNDER_NAME} — CEO & Founder of Digizier`}
-                  fill
-                  className="object-cover object-top hover:scale-[1.02] transition-transform duration-500"
-                  sizes="(max-width: 768px) 90vw, 400px"
+                  width={800}
+                  height={1000}
+                  className="w-full h-full object-cover object-top hover:scale-[1.02] transition-transform duration-500"
                   unoptimized
                   priority
                 />
